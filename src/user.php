@@ -159,19 +159,19 @@ while($row = $stmt->fetch()){
                 <div class="row">
                     <div class="offset-by-three six columns">
                         <label for="freeInput">What do you do in your free time?</label>
-                        <textarea class="u-full-width" id="freeInput" name="freeInput" value="<?php echo is_null($answers[7]) ? "" : $answers[7];?>"></textarea>
+                        <textarea class="u-full-width" id="freeInput" name="freeInput" value="<?php echo is_null($answers[7]) ? "" : $answers[7];?>"><?php echo is_null($answers[7]) ? "" : $answers[7];?></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="offset-by-three six columns">
                         <label for="hobbyInput">Any other hobbies?</label>
-                        <textarea class="u-full-width" id="hobbyInput" name="hobbyInput" value="<?php echo is_null($answers[8]) ? "" : $answers[8];?>"></textarea>
+                        <textarea class="u-full-width" id="hobbyInput" name="hobbyInput" value="<?php echo is_null($answers[8]) ? "" : $answers[8];?>"><?php echo is_null($answers[8]) ? "" : $answers[8];?></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="offset-by-three six columns">
                         <label for="giftInput">Any specific gift that you want? ($5 - $20)</label>
-                        <textarea class="u-full-width" id="giftInput" name="giftInput" value="<?php echo is_null($answers[9]) ? "" : $answers[9];?>"></textarea>
+                        <textarea class="u-full-width" id="giftInput" name="giftInput" value="<?php echo is_null($answers[9]) ? "" : $answers[9];?>"><?php echo is_null($answers[9]) ? "" : $answers[9];?></textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -248,19 +248,19 @@ while($row = $stmt->fetch()){
                 <div class="row">
                     <div class="offset-by-three six columns">
                         <label for="freeInput">What do you do in your free time?</label>
-                        <textarea class="u-full-width" id="freeInput" name="freeInput" value="<?php echo is_null($answers2[7]) ? "" : $answers2[7];?>" readonly></textarea>
+                        <textarea class="u-full-width" id="freeInput" name="freeInput" value="<?php echo is_null($answers2[7]) ? "" : $answers2[7];?>" readonly><?php echo is_null($answers2[7]) ? "" : $answers2[7];?></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="offset-by-three six columns">
                         <label for="hobbyInput">Any other hobbies?</label>
-                        <textarea class="u-full-width" id="hobbyInput" name="hobbyInput" value="<?php echo is_null($answers2[8]) ? "" : $answers2[8];?>" readonly></textarea>
+                        <textarea class="u-full-width" id="hobbyInput" name="hobbyInput" value="<?php echo is_null($answers2[8]) ? "" : $answers2[8];?>" readonly><?php echo is_null($answers2[8]) ? "" : $answers2[8];?></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="offset-by-three six columns">
                         <label for="giftInput">Any specific gift that you want? ($5 - $20)</label>
-                        <textarea class="u-full-width" id="giftInput" name="giftInput" value="<?php echo is_null($answers2[9]) ? "" : $answers2[9];?>" readonly></textarea>
+                        <textarea class="u-full-width" id="giftInput" name="giftInput" value="<?php echo is_null($answers2[9]) ? "" : $answers2[9];?>" readonly><?php echo is_null($answers2[9]) ? "" : $answers2[9];?></textarea>
                     </div>
                 </div>
                 <div class="row">

@@ -1,3 +1,18 @@
+<?php
+session_start();
+if($_SESSION['admin'] != TRUE){
+    require_once "config.php";
+    if(!is_null($_POST['passwordInput']) && $_POST['passwordInput'] == LOGIN){
+        $_SESSION['admin'] = TRUE;
+    }
+}
+
+if($_SESSION['admin'] == TRUE){
+    header('Location: home.php');
+}
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -17,17 +32,17 @@
     </head>
     <body>
         <div class="container">
-            <div class="row heading">
+            <div class="row heading centered">
                 <div class="offset-by-three six columns">
                     <h3>CRT Secret Santa</h3>
                     <h4>Admin Login</h4>
                 </div>
             </div>
-            <form onsubmit="index.php">
+            <form action="index.php" method="post">
                 <div class="row">
                     <div class="offset-by-three six columns">
                         <label for="passwordInput">Password</label>
-                        <input class="u-full-width" type="password" id="passwordInput">
+                        <input class="u-full-width" type="password" id="passwordInput" name="passwordInput">
                     </div>
                 </div>
                 <div class="row">

@@ -88,7 +88,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.heading {
+    margin-top: 4em;
+}
 
+.centered {
+    text-align: center;
+}
+
+.saved {
+    color: darkgreen;
+}
 
 
 
@@ -113,7 +123,7 @@ textarea {
  */
 
 .hidden {
-    display: none !important;
+    display: none;
 }
 
 /*
